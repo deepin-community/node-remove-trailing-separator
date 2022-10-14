@@ -1,0 +1,35 @@
+node-remove-trailing-separator (1.1.0-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Trim trailing whitespace.
+  * Use secure copyright file specification URI.
+  * Bump debhelper from deprecated 9 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Update Vcs-* headers from URL redirect.
+  * Use canonical URL in Vcs-Git.
+  * Apply multi-arch hints.
+    + node-remove-trailing-separator: Add Multi-Arch: foreign.
+
+  [ Xavier Guimard ]
+  * Bump debhelper compatibility level to 13
+  * Declare compliance with policy 4.5.1
+  * Add "Rules-Requires-Root: no"
+  * Change section to javascript
+  * Add debian/gbp.conf
+  * Modernize debian/watch
+  * Use dh-sequence-nodejs auto install (Closes: #974417)
+  * New upstream version 1.1.0
+  * Update copyright
+  * Enable upstream test using tape instead of ava
+
+ -- Xavier Guimard <yadd@debian.org>  Mon, 21 Dec 2020 08:37:16 +0100
+
+node-remove-trailing-separator (1.0.1-1) unstable; urgency=low
+
+  * Initial release (Closes: #845226)
+
+ -- Sruthi Chandran <srud@disroot.org>  Mon, 21 Nov 2016 22:18:47 +0530
