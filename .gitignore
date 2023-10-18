@@ -1,1 +1,6 @@
-.pc/
+.DS_Store
+*.log
+*.node
+node_modules
+coverage
+.nyc_output
