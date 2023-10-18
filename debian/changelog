@@ -1,3 +1,17 @@
+node-remove-trailing-separator (1.1.0-2) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Remove empty leading paragraph in Description.
+
+  [ Yadd ]
+  * Fix GitHub tags regex
+  * Update standards version to 4.6.0, no changes needed.
+  * Fix filenamemangle
+
+ -- Yadd <yadd@debian.org>  Sat, 20 Nov 2021 16:33:26 +0100
+
 node-remove-trailing-separator (1.1.0-1) unstable; urgency=medium
 
   * Team upload
